@@ -1,0 +1,4 @@
+name: KordexBukkitExample
+version: 1.0.0
+main: com.example.bukkitexample.ExamplePlugin
+api-version: '1.21.11'

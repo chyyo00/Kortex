@@ -1,0 +1,4 @@
+name: KordexPaperExample
+version: 1.0.0
+main: com.example.paperexample.ExamplePlugin
+api-version: '1.21.11'

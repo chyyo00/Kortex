@@ -1,0 +1,25 @@
+# Only mod identity lives here - Kordex commands and permissions are declared in Kotlin, never in this file.
+modLoader="javafml"
+loaderVersion="[61,)"
+license="MIT"
+
+[[mods]]
+modId="kordexforgeexample"
+version="1.0.0"
+displayName="Kordex Forge Example"
+description='''Demonstrates the Kordex command DSL on Forge for Minecraft 1.21.11.
+Commands are registered from Kotlin only; nothing in this file declares them.'''
+
+[[dependencies.kordexforgeexample]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.kordexforgeexample]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.22,)"
+    ordering="NONE"
+    side="BOTH"

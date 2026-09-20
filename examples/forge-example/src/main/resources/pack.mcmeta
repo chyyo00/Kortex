@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "kordexforgeexample resources",
+    "max_format": 107,
+    "min_format": [
+      101,
+      1
+    ]
+  }
+}

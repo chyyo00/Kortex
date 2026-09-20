@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kordex-fabric-example",
+  "version": "1.0.0",
+  "name": "Kordex Fabric Example",
+  "description": "Demonstrates the Kordex command DSL on Fabric for Minecraft 26.1 - 26.2 - no descriptor entries needed beyond this file's own identity.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.example.fabricexample.ExampleMod"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.1 <26.3",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*"
+  }
+}

@@ -1,0 +1,26 @@
+# Only mod identity lives here - Kordex commands and permissions are declared in Kotlin, never in this file.
+# Forge numbers its major version per Minecraft release (26.1 = 62, 26.1.1 = 63, 26.1.2 = 64, 26.2 = 65).
+modLoader="javafml"
+loaderVersion="[62,)"
+license="MIT"
+
+[[mods]]
+modId="kordexforgeexample"
+version="1.0.0"
+displayName="Kordex Forge Example"
+description='''Demonstrates the Kordex command DSL on Forge for Minecraft 26.1 - 26.2.
+Commands are registered from Kotlin only; nothing in this file declares them.'''
+
+[[dependencies.kordexforgeexample]]
+    modId="forge"
+    mandatory=true
+    versionRange="[62,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.kordexforgeexample]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.1,26.3,)"
+    ordering="NONE"
+    side="BOTH"
